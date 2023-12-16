@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+////Salom malim balma cnt++ mekne? 
+
+.menu{
+    
+    display: flex;
+    width: 100%;
+    position: sticky;
+    background-color: #f44336;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.359);
+    .knopka{
+        font-size: 25px;
+        color: white;
+        background-color:  #f44336;
+        padding: 10px;
+        margin: 0;
+    }
+    .knopka2{
+        font-size: 25px;
+        background-color: rgb(255, 255, 255);
+        margin: 5px 10px;
+        color: rgb(0, 0, 0);
+        margin: 0;
+        padding: 10px;
+    }
+    
+}
+
+.footer{
+    width: 100%;
+    background-color: #f44336;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 10px;
+    .big{
+        text-align: center;
+        color: white;
+
+        #g{
+            font-size: 65px;
+        }
+        #g2{
+            font-size: 20px;
+        }
+        button{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 18px;
+            padding: 17px;
+            margin-top: 20px;
+        }
+        button:hover{
+            background-color: white;
+            color: black;
+            transition: 2s;
+
+        }
+    }
+}
+a{
+    text-decoration: none;
+}
+
+.knopka2:hover{
+    opacity: 0.7;
+    transition: 2s;
+}
+
+.knopka:hover{
+    background-color: white;
+    color: black;
+    transition: 2s;
+}
+
+
+
+.Lorem{
+    width: 100%;
+    
+   
+    background-color: #ffffff;///#ffffff
+    .Lorem2{
+        display: flex;
+        margin: auto;
+        width: 80%;
+        height: 40%;
+        background-color: #ffffff;///#ffffff
+        padding: 14px;
+        .Loremtxt{
+            width: 67%;
+            #loips{
+               
+                font-size: 38px;
+            }
+            #loipstxt{
+                margin-top: 45px;
+            }
+            #loipstxt2{
+                margin-top: 45px;
+                opacity: 0.7;
+            }
+        }
+        .anchor{
+
+        }
+        
+    }
+
+    .Lorem22{
+        display: flex;
+        margin: auto;
+        width: 80%;
+        height: 40%;
+        background-color: #f1f1f1;///#ffffff
+        padding: 14px;
+        margin-top: 40px;
+        .Loremtxtt{
+            width: 67%;
+            #loipss{
+               
+                font-size: 38px;
+            }
+            #loipstxtt{
+                margin-top: 45px;
+            }
+            #loipstxt22{
+                margin-top: 45px;
+                opacity: 0.7;
+            }
+        }
+        .anchorr{
+
+        }
+        
+    }
+   
+}
+
+
+.GRAY{
+    width: 100%;
+    height: 111px;
+    background-color: #666;
+    margin-top: 140px;
+
+    .xtx{
+        padding: 35px;
+        width: 30%;
+        margin: auto;
+        #txt{
+            color: white;
+            font-size: 35px;
+            
+        }
+    }
+    
+}
+
+.info{
+    width: 100%;
+    height: 121px;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    
+    .box{
+        padding: 30px;
+        width: 10%;
+        display: flex;
+        margin: auto;
+        .icon:hover{
+            opacity: 0.7;
+            transition: 0.80;
+        }
+        .icon{
+            color: #868383;
+            font-size: 30px;
+            margin-left: 5px;
+        }
+    }
+    .bx{
+        width: 10%;
+        margin: auto;
+        color: #666;
+        padding: 5px;
+    }
+}
